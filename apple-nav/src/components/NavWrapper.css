@@ -11,18 +11,28 @@
   padding-top: .8%;
 }
 
-a {
+.nav_links a {
   color: white;
   text-decoration: none;
   margin-left: 5%;
   margin-right: 3%;
 }
 
-a:last-child {
+.nav_links a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav_links .active {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav_links a:last-child {
   margin-right: 0;
 }
 
-a img {
+.nav_links a img {
   width: 20px;
   height: 20px;
 }

@@ -21,10 +21,20 @@
   margin: 1%;
 }
 
+.component_links a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
 .component_links_dark a {
   color: white;
   font-size: .5rem;
   margin: 1%;
+}
+
+.component_links_dark a:hover {
+  color: blue;
+  text-decoration: none;
 }
 
 .individual_link_container {
