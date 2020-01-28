@@ -1,8 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Nav_Components.css';
 
 const Support = () => {
   return (
-    <div>Support Page</div>
+    <div>
+      <div className="component_links">
+        <NavLink to="support.apple.com">Apple Support Page</NavLink>
+      </div>
+    </div>
   )
 };
 
