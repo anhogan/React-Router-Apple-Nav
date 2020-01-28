@@ -1,12 +1,28 @@
 .component_links {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
 }
+
+.component_links_dark {
+  background: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .component_links a {
   color: black;
+  font-size: .5rem;
+  margin: 1%;
+}
+
+.component_links_dark a {
+  color: white;
   font-size: .5rem;
   margin: 1%;
 }

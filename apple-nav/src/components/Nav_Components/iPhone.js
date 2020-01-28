@@ -5,7 +5,7 @@ import './Nav_Components.css';
 const iPhone = () => {
   return (
     <div>
-      <div className="component_links">
+      <div className="component_links_dark">
         <NavLink to="/">iPhone 11 Pro</NavLink>
         <NavLink to="/">iPhone 11</NavLink>
         <NavLink to="/">iPhone XR</NavLink>

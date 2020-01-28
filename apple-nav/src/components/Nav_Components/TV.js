@@ -5,7 +5,7 @@ import './Nav_Components.css';
 const TV = () => {
   return (
     <div>
-      <div className="component_links">
+      <div className="component_links_dark">
         <NavLink to="/">Apple TV+</NavLink>
         <NavLink to="/">Apple TV App</NavLink>
         <NavLink to="/">Apple TV 4K</NavLink>
