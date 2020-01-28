@@ -10,11 +10,6 @@ import proDisplay from '../../apple_images/pro_display.svg';
 import accessories from '../../apple_images/headphones.svg';
 import macOS from '../../apple_images/macOS.svg';
 
-// Add in Image
-// Add in New text
-// Wrap each "item" in a div tag
-// Add in animation
-
 const Mac = () => {
   return (
     <div>
