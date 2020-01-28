@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import NavWrapper from './components/NavWrapper';
 import './App.css';
 
 function App() {
