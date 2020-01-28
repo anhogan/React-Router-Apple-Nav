@@ -6,7 +6,7 @@ const Support = () => {
   return (
     <div>
       <div className="component_links">
-        <NavLink to="support.apple.com">Apple Support Page</NavLink>
+        <NavLink to="/">Apple Support Page</NavLink>
       </div>
     </div>
   )
