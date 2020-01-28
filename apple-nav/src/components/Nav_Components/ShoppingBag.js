@@ -10,7 +10,7 @@ const ShoppingBag = () => {
         <OverlayTrigger trigger="click" key="bottom" placement="bottom"
           overlay={
             <Popover id={`popover-positioned-bottom`}>
-              <Popover.Title as="h3">Your bag is empty.</Popover.Title>
+              <Popover.Title as="p">Your Bag is empty.</Popover.Title>
               <Popover.Content>
               <ul>
                 <li><NavLink to="/"><i class="fas fa-shopping-bag"></i>Bag</NavLink></li>

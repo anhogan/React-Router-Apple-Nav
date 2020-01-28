@@ -42,11 +42,35 @@
   color: red;
 }
 
-.shopping_bag_container ul {
-  list-style: none;
+#popover-positioned-bottom {
+  width: 20%;
+  border-radius: 20px;
 }
 
-.shopping_bag_container ul li a {
+#popover-positioned-bottom p {
+  font-size: .8rem;
+  text-align: center;
+  background: white;
+  color: lightslategray;
+  padding-bottom: 10%;
+  margin-top: 10%;
+}
+
+.popover-body ul {
+  list-style: none;
+  padding: 1%;
+}
+
+.popover-body ul li a {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.popover-body ul li a i {
+  margin-right: 5%;
+}
+
+.shopping_bag_container .btn-toolbar button {
+  background: black;
+  border: none;
 }
