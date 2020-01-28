@@ -5,5 +5,6 @@ import Watch from './Watch';
 import TV from './TV';
 import Music from './Music';
 import Support from './Support';
+import ShoppingBag from './ShoppingBag';
 
-export { Mac, iPad, iPhone, Watch, TV, Music, Support };
+export { Mac, iPad, iPhone, Watch, TV, Music, Support, ShoppingBag };
