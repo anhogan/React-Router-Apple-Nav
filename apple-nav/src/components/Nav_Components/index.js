@@ -6,5 +6,6 @@ import TV from './TV';
 import Music from './Music';
 import Support from './Support';
 import ShoppingBag from './ShoppingBag';
+import SearchBar from './SearchBar';
 
-export { Mac, iPad, iPhone, Watch, TV, Music, Support, ShoppingBag };
+export { Mac, iPad, iPhone, Watch, TV, Music, Support, ShoppingBag, SearchBar };

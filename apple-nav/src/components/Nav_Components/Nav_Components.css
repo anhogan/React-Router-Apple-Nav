@@ -84,3 +84,12 @@
   background: black;
   border: none;
 }
+
+.navSlide-enter {
+  opacity: 0.01;
+}
+
+.navSlide-enter.navSlide-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
