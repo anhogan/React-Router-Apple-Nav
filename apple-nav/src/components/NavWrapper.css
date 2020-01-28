@@ -1,0 +1,44 @@
+.nav_wrapper {
+  background: black;
+  width: 100%;
+  height: 50px;
+  padding-left: 10%;
+  display: flex;
+}
+
+.nav_links {
+  width: 70%;
+  padding-top: .8%;
+}
+
+.nav_links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.nav_links a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav_links .active {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav_links a:last-child {
+  margin-right: 0;
+}
+
+.nav_links a img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav_image {
+  width: 20px;
+  height: 20px;
+  margin: 1% 5% 1% 1%;
+}
